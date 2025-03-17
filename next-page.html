@@ -1,0 +1,201 @@
+<!-- NEXT PAGE -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>संकल्प</title>
+    <style>
+        .content {
+            text-align: center;
+            padding: 20px;
+            word-spacing: 10px;
+            color: #333;
+            background-color: rgb(255, 198, 198);
+            border-radius: 12px;
+            box-shadow: 0px 4px 12px rgba(65, 41, 41, 0.1);
+            max-width: 800px;
+            margin: 50px auto;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #ff4d4d;
+            margin-bottom: 20px;
+        }
+
+        p, select {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        select {
+            padding: 4px 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin: 0 5px;
+        }
+
+        .translate-btn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .translate-btn:hover {
+            background-color: #45a049;
+        }
+
+        #mantra, #naam, #after{
+            font-size:0.6cm;
+            word-spacing:4;
+            line-height:1.5cm;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>संकल्प</h1>
+        <p id="mantra">
+            ॐ विष्णु विष्णु विष्णुः। श्रीमद्भगवतो महापुरुषस्य विष्णोराज्ञया प्रवर्तमानस्य सकल जगत सिष्ठि कारिणाे ब्रह्मणो द्वितीये परार्धे श्रीश्वेत वाराहकल्पे वैवस्वत मन्वन्तरे अष्टाविंशतितमे युगे सत्य त्रेता द्वापरन्रते कलियुगे कलियुगस्य प्रथमचरणे भूर्लोके भारतवर्षे जम्बूद्विपे भरतखण्डे आर्यावर्तान्तर्गत ब्रह्मावर्तस्य नेपाल देशे राष्ट्रीय राजधानी क्षेत्र मण्डलान्तरगते काठमाडौं नाम्नि नगरे 
+            <span id="direction">उत्तर</span> 
+            दिग्भागे देवब्राह्मणानां सन्निधौ षष्ठि संवत्सराणं मध्ये 
+            <span id="samvatsar">विक्रमी</span> 
+            नाम्नी संवत्सरे 
+            <span id="ayana">उत्तरायण</span> 
+            अयने, 
+            <span id="ritu">वसन्त</span> 
+            ऋतौ, 
+            <span id="month">चैत्र</span> 
+            मासे, 
+            <span id="paksha">शुक्ल</span> 
+            पक्षे, 
+            <span id="tithi">प्रतिपदा</span> 
+            तिथौ 
+            <span id="day">सोम</span> 
+            वासरे, 
+            <span id="nakshatra">अश्विनी</span> 
+            नक्षत्रे, 
+            <span id="chandra">मेष</span> 
+            राशिस्थिते चन्द्रे, 
+            <span id="surya">मीन</span> 
+            राशिस्थिते श्रीसूर्ये, 
+            <span id="guru">धनु</span> 
+            राशिस्थिते देवगुरौ
+            शेषेशु ग्रहेषु यथायथा राशिस्थानस्थितेषु सत्सु एवं ग्रहगुणविशेषण विशिष्टायां शुभपुण्यतिथौ 
+            <select id="gotra" name="gotra">
+                <option value="भृगु (जमदग्नि)">भृगु (जमदग्नि)</option>
+                <option value="भार्गव">भार्गव</option>
+                <option value="च्यावन">च्यावन</option>
+                <option value="और्व">और्व</option>
+                <option value="जामदग्न्य">जामदग्न्य</option>
+                <option value="वात्स">वात्स</option>
+                <option value="केवल भृगु">केवल भृगु</option>
+                <option value="दैवोदास">दैवोदास</option>
+                <option value="वैन्य">वैन्य</option>
+                <option value="पार्थ">पार्थ</option>
+                <option value="शौनक">शौनक</option>
+                <option value="गर्त्समद">गर्त्समद</option>
+                <option value="गौतम">गौतम</option>
+                <option value="आंगिरस">आंगिरस</option>
+                <option value="काक्षीवत">काक्षीवत</option>
+                <option value="दैर्घतमस">दैर्घतमस</option>
+                <option value="औशनस">औशनस</option>
+                <option value="भरद्वाज">भरद्वाज</option>
+                <option value="आंगिरस">आंगिरस</option>
+                <option value="बार्हस्पत्य">बार्हस्पत्य</option>
+                <option value="भारद्वाज">भारद्वाज</option>
+                <option value="गार्ग्य">गार्ग्य</option>
+                <option value="केवल आंगिरस">केवल आंगिरस</option>
+                <option value="आंबरीष">आंबरीष</option>
+                <option value="मांधात्र">मांधात्र</option>
+                <option value="कौत्स">कौत्स</option>
+                <option value="काण्व">काण्व</option>
+                <option value="मौद्गल्य">मौद्गल्य</option>
+                <option value="सांक्रित्य">सांक्रित्य</option>
+                <option value="शाक्त्य">शाक्त्य</option>
+                <option value="अत्रि">अत्रि</option>
+                <option value="आत्रेय">आत्रेय</option>
+                <option value="विश्वामित्र">विश्वामित्र</option>
+                <option value="वैश्वामित्र">वैश्वामित्र</option>
+                <option value="दैवरात">दैवरात</option>
+                <option value="माधुच्छंदस">माधुच्छंदस</option>
+                <option value="कौशिक">कौशिक</option>
+                <option value="गाथिन">गाथिन</option>
+                <option value="ऐंद्र">ऐंद्र</option>
+                <option value="कश्यप">कश्यप</option>
+                <option value="काश्यप">काश्यप</option>
+                <option value="आवत्सार">आवत्सार</option>
+                <option value="आसित">आसित</option>
+                <option value="शांडिल्य">शांडिल्य</option>
+                <option value="दैवल">दैवल</option>
+                <option value="वसिष्ठ">वसिष्ठ</option>
+                <option value="वासिष्ठ">वासिष्ठ</option>
+                <option value="मैत्रावरुण">मैत्रावरुण</option>
+                <option value="औपमन्यव">औपमन्यव</option>
+                <option value="पाराशर्य">पाराशर्य</option>
+                <option value="शाक्त्य">शाक्त्य</option>
+                <option value="सांक्रित्य">सांक्रित्य</option>
+                <option value="अगस्त्य">अगस्त्य</option>
+                <option value="आगस्त्य">आगस्त्य</option>
+            </select>
+            
+ गोत्रोत्पन्नस्य <label id="naam"></label>
+ शर्मणः (वर्मणः, गुप्तस्य, सपरिवारस्य ममात्मनः) सम्पूर्ण पूजा सफलम् ।
+        </p>
+        <button class="translate-btn" onclick="back()">Go Back</button>
+    </div>
+
+    <script>
+        function back() {
+            window.location.href = 'index.html';
+        }
+
+        function updateData() {
+            var a = prompt("न्वारनकाे नाम हाल्नुहाेस् । (देवनागरीमा)");
+            document.getElementById("naam").innerText = a;
+            const today = new Date();
+            const days = ["रवि", "सोम", "मंगल", "बुध", "गुरु", "शुक्र", "शनि"];
+            const months = ["चैत्र", "वैशाख", "ज्येष्ठ", "आषाढ़", "श्रावण", "भाद्रपद", "आश्विन", "कार्तिक", "मार्गशीर्ष", "पौष", "माघ", "फाल्गुन"];
+            const ritus = ["वसन्त", "ग्रीष्म", "वर्षा", "शरद", "हेमन्त", "शिशिर"];
+            const tithis = ["प्रतिपदा", "द्वितीया", "तृतीया", "चतुर्थी", "पञ्चमी", "षष्ठी", "सप्तमी", "अष्टमी", "नवमी", "दशमी", "एकादशी", "द्वादशी", "त्रयोदशी", "चतुर्दशी", "पूर्णिमा", "अमावस्या"];
+
+            // Samvatsar (Vikram Samvat) calculation
+            document.getElementById('samvatsar').innerText = 2081 + (today.getFullYear() - 2024);
+
+            // Ayan (Uttarayan or Dakshinayan)
+            document.getElementById('ayana').innerText = (today.getMonth() >= 0 && today.getMonth() <= 5) ? 'उत्तरायण' : 'दक्षिणायन';
+
+            // Ritu (Season)
+            document.getElementById('ritu').innerText = ritus[Math.floor((today.getMonth() + 2) % 12 / 2)];
+
+            // Month (Hindu Month)
+            document.getElementById('month').innerText = months[today.getMonth()];
+
+            // Paksha (Shukla or Krishna)
+            document.getElementById('paksha').innerText = (today.getDate() <= 15) ?  'शुक्ल': 'कृष्ण';
+
+            // Tithi (Approximation)
+            document.getElementById('tithi').innerText = tithis[(today.getDate() - 1) % 15];
+
+            // Day
+            document.getElementById('day').innerText = days[today.getDay()];
+
+            // Placeholder for Chandra, Surya, and Guru signs (can use astrology library)
+            document.getElementById('chandra').innerText = 'मेष';
+            document.getElementById('surya').innerText = 'मीन';
+            document.getElementById('guru').innerText = 'धनु';
+        }
+
+        window.onload = updateData;
+    </script>
+</body>
+</html>
